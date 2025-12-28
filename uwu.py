@@ -852,7 +852,7 @@ class MyClient(commands.Bot):
             "gems": self.settings_dict["autoUse"]["gems"]["disabled"],
             "giveaway": self.settings_dict["giveawayJoiner"]["enabled"],
             "hunt": commands_dict["hunt"]["enabled"] and not reaction_bot_dict["hunt_and_battle"],
-            "huntbot": commands_dict["autoHuntBot"]["enabled"],
+            "huntbot": commands_dict["autoHuntBot"]["disabled"],
             "level": commands_dict["lvlGrind"]["disabled"],
             "lottery": commands_dict["lottery"]["enabled"],
             "others": True,
